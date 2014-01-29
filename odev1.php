@@ -10,7 +10,7 @@ $a=array(
     "begonya.jpg"
 );
 session_start();
-$used=&$_SESSION['usedIndexes'];
+$used=&$_SESSION['kullanılanlar'];
 if(count($used)>  count($a))
     $used=array();
 foreach($used as $index)
