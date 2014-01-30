@@ -11,8 +11,7 @@ $a=array(
 );
 session_start();
 $used=&$_SESSION['kullanılanlar'];
-if(count($used)>  count($a))
-    $used=array();
+$used=array();
 foreach($used as $index)
 {unset($a[$index]);}
 $random=  array_rand($a);
