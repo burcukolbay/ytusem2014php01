@@ -1,4 +1,4 @@
-ikinci ödev
+ikinci odev
 <?php
 
 
