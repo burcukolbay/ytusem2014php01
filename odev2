@@ -1,0 +1,1 @@
+ikinci ödev
