@@ -23,7 +23,7 @@ function guclu_sifre_uret($uzunluk=10)
 {
     
     $sifre2="";
-    $karakter2="aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ+-/?*!";
+    $karakter2="aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ+-/?*!0123456789";
     if($uzunluk<4)
     {
         echo "Sifre uzunlugu 3 karakterden fazla olmali";
@@ -31,7 +31,7 @@ function guclu_sifre_uret($uzunluk=10)
     else{
     for($j=1;$j<$uzunluk+1;$j++)
     {
-        $sifre2.=$karakter2{rand()%58};
+        $sifre2.=$karakter2{rand()%68};
         
     }
     return $sifre2;
